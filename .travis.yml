@@ -5,12 +5,12 @@ sudo: false
 language: python
 
 # Set the python version to 3.8.1
-python: 3.8.1
+python: "3.8.1"
 
 # Install the codecov pip dependency
 install:
-  - pip install mean
+  - "pip install -r requirements.txt"
+  - "pip install mean"
 
 # Run the unit test
-script:
-  - py.test
+script: py.test
