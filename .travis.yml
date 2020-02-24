@@ -13,4 +13,4 @@ install:
   - "pip install mean"
 
 # Run the unit test
-script: py.test
+#script: py.test
